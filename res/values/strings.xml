@@ -117,7 +117,6 @@
     <!-- Equals button (e.g. "1 + 2 = ?"). [CHAR_LIMIT=1] -->
     <string name="eq" translatable="false">=</string>
     <!-- Clear button to clear the currently entered expression. [CHAR_LIMIT=4] -->
-    <string name="clr">clr</string>
     <!--
       Announced when all characters are removed from Formula, e.g. after clear. [CHAR_LIMIT=NONE]
       -->
@@ -314,5 +313,6 @@
     <string name="title_current_expression">Current Expression</string>
     <!-- Placeholder string when there is no history to be shown. [CHAR_LIMIT=40] -->
     <string name="no_history">No History</string>
+    <string name="clr" translatable="false">C</string>
 
 </resources>
