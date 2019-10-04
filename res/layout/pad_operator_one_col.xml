@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/eq"
-        style="@style/PadButtonStyle.Numeric.Equals"
+        style="@style/PadButtonStyle.Operator"
         android:contentDescription="@string/desc_eq"
         android:text="@string/eq"
         app:layout_row="4"

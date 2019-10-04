@@ -94,7 +94,8 @@
     </style>
 
     <style name="PadButtonStyle.Operator">
-        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">@color/pad_operator_text_color</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
     <style name="PadButtonStyle.Operator.Text">
