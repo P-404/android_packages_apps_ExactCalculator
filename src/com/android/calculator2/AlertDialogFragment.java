@@ -22,6 +22,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -104,8 +105,7 @@ public class AlertDialogFragment extends DialogFragment implements DialogInterfa
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         final Bundle args = getArguments() == null ? Bundle.EMPTY : getArguments();
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity(), android.R.style.Theme_Material_Light_Dialog_Alert);
         final LayoutInflater inflater = LayoutInflater.from(builder.getContext());
         final TextView messageView = (TextView) inflater.inflate(
                 R.layout.dialog_message, null /* root */);
